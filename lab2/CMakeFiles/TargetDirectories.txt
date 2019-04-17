@@ -1,0 +1,3 @@
+/home/dr10n9/CLionProjects/test/CMakeFiles/rebuild_cache.dir
+/home/dr10n9/CLionProjects/test/CMakeFiles/test.dir
+/home/dr10n9/CLionProjects/test/CMakeFiles/edit_cache.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dr10n9/CLionProjects/test/include/tasks.h
+stdio.h
+-
+sys/types.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/wait.h
+-
+
+/home/dr10n9/CLionProjects/test/src/task2.c
+../include/tasks.h
+/home/dr10n9/CLionProjects/test/include/tasks.h
+fcntl.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+stdbool.h
+-
+dirent.h
+-
+
