@@ -7,12 +7,13 @@
 int lfd;
 
 void signal_handler( int signo, siginfo_t *si, void * ucontext ) {
-    else printf("not null\n");
+    // else printf("not null\n");
     printf("signo: %d\n", signo);
     printf("signal info:\n"
            "si_signo: %d\n"
            "si_errno: %d\n"
-           "si_code: %d\n", si->si_signo, si->si_errno, si->si_code);
+           "si_uid: %d\n"
+           "si_pid: %d\n", si->si_signo, si->si_errno, si->si_uid, si->si_pid);
     exit(1);
 };
 
@@ -32,8 +33,8 @@ int task1() {
 
     sigaction(SIGHUP, NULL, &oldSigact); // to save old handler
 
-    sigact.sa_sigaction = signal_handler;
-    sigact.sa_flags = 0;
+    sigact.sa_sigaction = signal_handler; //
+    sigact.sa_flags = SA_SIGINFO;
     sigaction(SIGHUP, &sigact, NULL);
 
     printf("%d\n", getpid());

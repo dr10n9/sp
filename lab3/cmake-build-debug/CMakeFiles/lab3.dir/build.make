@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dr10n9/CLionProjects/lab3
+CMAKE_SOURCE_DIR = /home/dr10n9/study/3term/2sem/sp/lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dr10n9/CLionProjects/lab3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab3.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/lab3.dir/flags.make
 
 CMakeFiles/lab3.dir/main.c.o: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/CLionProjects/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab3.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/main.c.o   -c /home/dr10n9/CLionProjects/lab3/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab3.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/main.c.o   -c /home/dr10n9/study/3term/2sem/sp/lab3/main.c
 
 CMakeFiles/lab3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab3.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/CLionProjects/lab3/main.c > CMakeFiles/lab3.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/study/3term/2sem/sp/lab3/main.c > CMakeFiles/lab3.dir/main.c.i
 
 CMakeFiles/lab3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab3.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/CLionProjects/lab3/main.c -o CMakeFiles/lab3.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/study/3term/2sem/sp/lab3/main.c -o CMakeFiles/lab3.dir/main.c.s
 
 CMakeFiles/lab3.dir/task2.c.o: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/task2.c.o: ../task2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/CLionProjects/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab3.dir/task2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/task2.c.o   -c /home/dr10n9/CLionProjects/lab3/task2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lab3.dir/task2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/task2.c.o   -c /home/dr10n9/study/3term/2sem/sp/lab3/task2.c
 
 CMakeFiles/lab3.dir/task2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab3.dir/task2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/CLionProjects/lab3/task2.c > CMakeFiles/lab3.dir/task2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/study/3term/2sem/sp/lab3/task2.c > CMakeFiles/lab3.dir/task2.c.i
 
 CMakeFiles/lab3.dir/task2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab3.dir/task2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/CLionProjects/lab3/task2.c -o CMakeFiles/lab3.dir/task2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/study/3term/2sem/sp/lab3/task2.c -o CMakeFiles/lab3.dir/task2.c.s
 
 CMakeFiles/lab3.dir/task1.c.o: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/task1.c.o: ../task1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/CLionProjects/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab3.dir/task1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/task1.c.o   -c /home/dr10n9/CLionProjects/lab3/task1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lab3.dir/task1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab3.dir/task1.c.o   -c /home/dr10n9/study/3term/2sem/sp/lab3/task1.c
 
 CMakeFiles/lab3.dir/task1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab3.dir/task1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/CLionProjects/lab3/task1.c > CMakeFiles/lab3.dir/task1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dr10n9/study/3term/2sem/sp/lab3/task1.c > CMakeFiles/lab3.dir/task1.c.i
 
 CMakeFiles/lab3.dir/task1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab3.dir/task1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/CLionProjects/lab3/task1.c -o CMakeFiles/lab3.dir/task1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dr10n9/study/3term/2sem/sp/lab3/task1.c -o CMakeFiles/lab3.dir/task1.c.s
 
 # Object files for target lab3
 lab3_OBJECTS = \
@@ -110,7 +110,7 @@ lab3: CMakeFiles/lab3.dir/task2.c.o
 lab3: CMakeFiles/lab3.dir/task1.c.o
 lab3: CMakeFiles/lab3.dir/build.make
 lab3: CMakeFiles/lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dr10n9/CLionProjects/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable lab3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable lab3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/lab3.dir/clean:
 .PHONY : CMakeFiles/lab3.dir/clean
 
 CMakeFiles/lab3.dir/depend:
-	cd /home/dr10n9/CLionProjects/lab3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dr10n9/CLionProjects/lab3 /home/dr10n9/CLionProjects/lab3 /home/dr10n9/CLionProjects/lab3/cmake-build-debug /home/dr10n9/CLionProjects/lab3/cmake-build-debug /home/dr10n9/CLionProjects/lab3/cmake-build-debug/CMakeFiles/lab3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dr10n9/study/3term/2sem/sp/lab3 /home/dr10n9/study/3term/2sem/sp/lab3 /home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug /home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug /home/dr10n9/study/3term/2sem/sp/lab3/cmake-build-debug/CMakeFiles/lab3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab3.dir/depend
 

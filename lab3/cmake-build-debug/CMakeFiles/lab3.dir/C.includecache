@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/dr10n9/CLionProjects/lab3/task1.c
+/home/dr10n9/study/3term/2sem/sp/lab3/task1.c
 task1.h
-/home/dr10n9/CLionProjects/lab3/task1.h
+/home/dr10n9/study/3term/2sem/sp/lab3/task1.h
 
-/home/dr10n9/CLionProjects/lab3/task1.h
+/home/dr10n9/study/3term/2sem/sp/lab3/task1.h
 stdio.h
 -
 stdlib.h

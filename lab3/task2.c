@@ -34,17 +34,17 @@ int task2() {
         return -1;
     }
 
+    printf("pid: %d\n", getpid());
 
     while(1) {
         printf("Enter string:\n");
         fgets(buff, 100, stdin);
         msync(datum, sizeof(datum_t), MS_SYNC);
-        printf("Datum info:\npid: %d\ntime: %sdata: %s\n", datum->pid, asctime(&(datum->time)), datum->buff);
+        printf("\nDatum info:\npid: %d\ntime: %sdata: %s\n", datum->pid, asctime(&(datum->time)), datum->buff);
         datum->pid = getpid();
         time(&currentTime);
         datum->time = (*localtime(&currentTime));
         strcpy(datum->buff, buff);
-
     }
 
     shm_unlink("/lab3"); //unlink POSIX shared memory object5
